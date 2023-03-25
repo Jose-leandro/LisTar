@@ -1,0 +1,97 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+  margin-left: 1em;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+}
+
+.logo h1 {
+  font-family: "Arapey", serif;
+  font-family: "Kalam", cursive;
+  font-family: "Prata", serif;
+  font-size: 25px;
+}
+
+.menu {
+  position: absolute;
+  right: 4px;
+  height: 370px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 160px;
+}
+
+.menu__item--visibility {
+  visibility: visible;
+  height: 40px;
+}
+
+.menu__item__menu {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.menu__item__menu:hover {
+  background: rgba(46, 43, 43, 0.5490196078);
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+
+.menu__item__menu:active {
+  background: rgba(46, 43, 43, 0.5882352941);
+  padding: 0.5px 7px;
+  border-radius: 9px;
+  width: 25.7px;
+  height: 25.7px;
+}
+
+.menu__opcao {
+  height: 300px;
+  visibility: hidden;
+}
+
+.menu__opcao__item {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.menu__opcao__item img {
+  cursor: pointer;
+  width: 23px;
+  height: 23px;
+}
+
+.menu__opcao__item img:hover {
+  background: rgba(46, 43, 43, 0.5490196078);
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+
+.menu__opcao__item h1 {
+  font-family: "Old Standard TT", serif;
+  cursor: pointer;
+}
+
+.menu__opcao__item h1:hover {
+  background: rgba(46, 43, 43, 0.5490196078);
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=menu.css.map */

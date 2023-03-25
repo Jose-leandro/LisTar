@@ -1,0 +1,12 @@
+body {
+  background: #000;
+  color: #fff;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=styles.css.map */
