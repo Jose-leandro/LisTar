@@ -19,7 +19,7 @@ Olá, tudo bem, o meu projeto "LisTar", é um gerenciador dor de tarefas.
 
 Para hospedar o meu projeto utilizei uma das muitas funcionalidades do GitHub, o GitHub Pages é um serviço de hospedagem de site estático, ou seja sites seria projetos em que
 foram utilizados apenas CSS, HTML e JavaScript, na qual a hospedagem será apartir do repositorio do projeto, você poderá visualizar o projeto atrvés deste 
-[Link](https://joseleandro7i.github.io/Encriptador-letras/) 
+[Link](https://joseleandro7i.github.io/LisTar/) 
 
 ## *Tecnologias utilizadas no projeto*
 
