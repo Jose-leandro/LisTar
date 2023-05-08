@@ -1,3 +1,6 @@
+
+/* Alterar a visibilidade do menu, ou seja, tornar visível quando clicado sobre o ícone do menu e 
+tornar não visível quando clicado novamente */
 function visibilidadeDoMenu() {
     let menuItemImg = document.querySelector(".menu__item__menu");
 
@@ -8,7 +11,6 @@ function visibilidadeDoMenu() {
 
         menuOpcao.style.visibility = "visible";
         menuOpcao.classList.add("menu__opcao--visibility")
-
 
         if (menuOpcaoVisibility.classList.contains("menu__opcao--visibility")) {
            

@@ -1,0 +1,236 @@
+.adicionar-tarefa__opcoes__lembrete {
+  align-content: center;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #2a2727;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  padding: 3px 15px;
+}
+
+.adicionar-tarefa__opcoes__descricao-img {
+  display: flex;
+  width: auto;
+}
+
+.adicionar-tarefa__opcoes__descricao-img p {
+  height: 22px;
+  margin-top: 0.3em;
+}
+
+.adicionar-tarefa__opcoes__descricao-img img {
+  cursor: pointer;
+  height: 25px;
+  margin-right: 0px;
+  padding: 2px 12px;
+  width: 25px;
+}
+
+.adicionar-tarefa__opcoes__descricao-img img:hover {
+  background: none;
+}
+
+.adicionar-tarefa__opcoes__descricao-img img:active {
+  background: none;
+}
+
+.adicionar-tarefa__opcoes__lembrete__contener {
+  background: rgba(12, 12, 12, 0.968627451);
+  border-radius: 20px;
+  cursor: default;
+  display: none;
+  opacity: 100%;
+}
+
+.adicionar-tarefa__opcoes__lembrete__configuracoes {
+  background: rgba(26, 25, 25, 0.5490196078);
+  border-radius: 20px;
+  display: none;
+  left: 31%;
+  padding: 10px;
+  padding: 18px;
+  position: absolute;
+  text-align: center;
+}
+
+.adicionar-tarefa__opcoes__lembrete__configuracoes h1 {
+  font-family: "Arapey", serif;
+  font-size: 20px;
+  font-weight: 10;
+}
+
+.adicionar-tarefa__opcoes__lembrete__horario {
+  align-content: center;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+}
+
+.adicionar-tarefa__opcoes__lembrete__horario div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: space-around;
+  margin: 0px 2px;
+  padding: 10px 0px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__horario img {
+  cursor: pointer;
+}
+
+.adicionar-tarefa__opcoes__lembrete__horario img:hover {
+  background: rgba(54, 49, 49, 0.5490196078);
+  border-radius: 12px;
+  padding: 0px 10px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__horario img:active {
+  background: rgba(61, 58, 58, 0.5490196078);
+  border-radius: 14px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__horario h1 {
+  font-size: 20px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__seta-acima-horas {
+  height: 30px;
+  width: 30px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__seta-abaixa-horas {
+  height: 30px;
+  width: 30px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__seta-acima-minutos {
+  height: 30px;
+  width: 30px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__seta-abaixa-minutos {
+  height: 30px;
+  width: 30px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__horario input {
+  background: rgba(26, 25, 25, 0.5490196078);
+  border: #2c2a2a 1px solid;
+  border-radius: 8px;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+  width: 55px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicionais {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicionais div {
+  align-items: center;
+  align-self: center;
+  background: rgba(26, 25, 25, 0.5490196078);
+  border: #2c2a2a 1px solid;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+  margin: 3px 0px;
+  padding: 6px 6px;
+  text-align: center;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicionais div:hover {
+  background: rgba(54, 49, 49, 0.5490196078);
+  border-radius: 12px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicionais div:active {
+  background: rgba(61, 58, 58, 0.5490196078);
+  border-radius: 14px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__seta-expandir-sons {
+  height: 22px;
+  width: 22px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__seta-exapandir-notificacao {
+  height: 22px;
+  width: 22px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicao-cancelamento {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicao-cancelamento button {
+  background: rgba(54, 49, 49, 0.5490196078);
+  border: #2c2a2a 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Arapey", serif;
+  font-size: 17px;
+  padding: 5px 18px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicao-cancelamento button:hover {
+  background: rgba(35, 44, 58, 0.5490196078);
+  border-radius: 8px;
+}
+
+.adicionar-tarefa__opcoes__lembrete__adicao-cancelamento button:active {
+  background: rgba(32, 40, 51, 0.5490196078);
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  .adicionar-tarefa__opcoes__lembrete__contener {
+    height: 490px;
+    left: 5.2%;
+    position: absolute;
+    top: 25%;
+    width: 90%;
+  }
+  .adicionar-tarefa__opcoes__lembrete__configuracoes {
+    top: 14%;
+    width: 80%;
+    left: 3%;
+  }
+}
+@media screen and (min-width: 481px) {
+  .adicionar-tarefa__opcoes__lembrete__contener {
+    height: 360px;
+    left: 7.5%;
+    position: absolute;
+    top: 32%;
+    width: 85%;
+  }
+  .adicionar-tarefa__opcoes__lembrete__configuracoes {
+    top: 2%;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .adicionar-tarefa__opcoes__lembrete__contener {
+    height: 370px;
+    left: 23%;
+    position: absolute;
+    top: 31%;
+    width: 54%;
+  }
+}
+
+/*# sourceMappingURL=lembrete.css.map */

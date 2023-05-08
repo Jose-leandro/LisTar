@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/adicionarTarefa/adicionarTarefa.css">
+  <link rel="stylesheet" href="css/adicionarTarefa/lembrete.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -52,12 +54,112 @@
     </div>
   </header>
   <main>
+    <div class="opcoes">
+      <button>Adicionar</button>
+      <button>Tarefas a realizar</button>
+    </div>
+    <div class="adicionar-tarefa">
+      <h2>Adicione uma nova tarefa para a sua lista</h2>
+      <div class="adicionar-tarefa__campos">
+        <div class="adicionar-tarefa__nomear">
+          <input name="tarefa" placeholder="Nomeie a sua tarefa">
+        </div>
+        <div class="adicionar-tarefa__descricao">
+          <input name="tarefa" placeholder="Descreva a sua tarefa">
+        </div>
+        <div class="adicionar-tarefa__opcoes">
+          <div class="adicionar-tarefa__contener">
+            <img src="img/tres-pontos.png" class="adicionar-tarefa__contener__img-pontos">
+          </div>
+          <div class="adicionar-tarefa__opcoes__contener">
+            <input name="vencimento" type="date" class="adicionar-tarefa__opcoes__vencimento">
+            <div class="adicionar-tarefa__opcoes__contener__priorizacao">
+              <div class="adicionar-tarefa__opcoes__prioridade">
+                <div class="adicionar-tarefa__opcoes__importantissimo">
+                  <p>Importantíssimo</p>
+                  <img src="img/selecionado.png" class="adicionar-tarefa__opcoes__importantissimo__img-selecionado">
+                </div>
+                <div class="adicionar-tarefa__opcoes__importante">
+                  <p>Importante</p>
+                  <img src="img/selecionado.png" class="adicionar-tarefa__opcoes__importante__img-selecionado">
+                </div>
+                <div class="adicionar-tarefa__opcoes__nao-importante">
+                  <p>Não é importante</p>
+                  <img src="img/selecionado.png" class="adicionar-tarefa__opcoes__nao-importante__img-selecionado">
+                </div>
+              </div>
+            </div>
+            <div class="adicionar-tarefa__opcoes__lembrete">
+              <div class="adicionar-tarefa__opcoes__descricao-img">
+                <p>Lembrete</p>
+                <img src="img/adicionar-lembrete.png">
+              </div>
+              <div class="adicionar-tarefa__opcoes__lembrete__contener">
+                <div class="adicionar-tarefa__opcoes__lembrete__configuracoes">
+                  <div>
+                    <h1>Adicione um lembrete</h1>
+                  </div>
+                  <div class="adicionar-tarefa__opcoes__lembrete__horario">
+                    <div>
+                      <img src="img/seta-para-acima.png" class="adicionar-tarefa__opcoes__lembrete__seta-acima-horas">
+                      <input class="adicionar-tarefa__opcoes__lembrete__input-hora" value="10">
+                      <img src="img/seta-para-baixo.png" class="adicionar-tarefa__opcoes__lembrete__seta-abaixa-horas">
+                    </div>
+                    <div>
+                      <h1>:</h1>
+                    </div>
+                    <div>
+                      <img src="img/seta-para-acima.png" class="adicionar-tarefa__opcoes__lembrete__seta-acima-minutos">
+                      <input class="adicionar-tarefa__opcoes__lembrete__input-minuto" value="0">
+                      <img src="img/seta-para-baixo.png"
+                        class="adicionar-tarefa__opcoes__lembrete__seta-abaixa-minutos">
+                    </div>
+                  </div>
+                  <div class="adicionar-tarefa__opcoes__lembrete__adicionais">
+                    <div>
+                      <p>Som pradão</p>
+                      <img src="img/seta-para-expandir.png"
+                        class="adicionar-tarefa__opcoes__lembrete__seta-expandir-sons">
+                    </div>
+                    <div>
+                      <p>Notificar 10m antes</p>
+                      <img src="img/seta-para-expandir.png"
+                        class="adicionar-tarefa__opcoes__lembrete__seta-exapandir-notificacao">
+                    </div>
+                  </div>
+                  <div class="adicionar-tarefa__opcoes__lembrete__adicao-cancelamento">
+                    <button class="adicionar-tarefa__opcoes__lembrete__adicionar">Adicionar</button>
+                    <button class="adicionar-tarefa__opcoes__lembrete__cancelar">Cancelar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>Adicionar tarefa</button>
+    </div>
   </main>
   <footer>
-
+    <div>
+      <img src="img/tarefas.png">
+      <p>&copy; Desenvolvido por José leandro do nascimento</p>
+    </div>
+    <div>
+      <p><a href="imagensAutorais.html">Imagens autorais</a></p>
+    </div>
+    <div class="contrato">
+      <p>Termo de uso</p>
+      <p>Política de privacidade</p>
+    </div>
   </footer>
 </body>
 
 </html>
 
 <script src="js/menu.js"></script>
+<script src="js/adicionarTarefas/visibilidadeCamposOpcionais.js"></script>
+<script type="module" src="js/adicionarTarefas/tarefasImportantissimas.js"></script>
+<script type="module" src="js/adicionarTarefas/tarefasImportantes.js"></script>
+<script type="module" src="js/adicionarTarefas/tarefasNaoImportantes.js"></script>
+<script type="module" src="js/adicionarTarefas/lembretes.js"></script>

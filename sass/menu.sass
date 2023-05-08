@@ -1,82 +1,93 @@
-
 .logo
-  display: flex
   align-items: center
+  display: flex
   justify-content: space-between
-  width: 130px
   margin-left: 1em
+  width: 130px
 
 .logo img
-  width: 55px
   height: 55px
+  width: 55px
 
 .logo h1
-  font-family: 'Arapey', serif
-  font-family: 'Kalam', cursive
-  font-family: 'Prata', serif
+  font-family: "Arapey", serif
+  font-family: "Kalam", cursive
+  font-family: "Prata", serif
   font-size: 25px
 
 .menu
-  position: absolute
-  right: 4px
-  height: 370px
-  top: 10px
+  align-items: center
   display: flex
   flex-direction: column
+  height: 370px
   justify-content: space-evenly
-  align-items: center
-  width: 160px
+  position: absolute
+  right: 15px
+  top: 10px
+  width: 200px
 
 .menu__item--visibility
-  visibility: visible
-  height: 40px
-
-.menu__item__menu
-  width: 26px
-  height: 26px
-  cursor: pointer
-  margin-top: 10px
-
-.menu__item__menu:hover
-  background: #2e2b2b8c
-  padding: 1px 8px
-  border-radius: 10px
-
-.menu__item__menu:active
-  background: #2e2b2b96
-  padding: 0.5px 7px
-  border-radius: 9px
-  width: 25.7px
-  height: 25.7px
-
-.menu__opcao
-  height: 300px
-  visibility: hidden
-
-.menu__opcao__item
-  height: 50px
+  align-items: flex-end
   display: flex
   flex-direction: column
-  justify-content: space-between
+  height: 40px
+  visibility: visible
+  width: 100%
+
+.menu__item__menu
+  cursor: pointer
+  height: 26px
+  margin-right: 12px
+  width: 26px
+
+.menu__item__menu:hover
+  background: rgba(46, 43, 43, 0.5490196078)
+  border-radius: 10px
+  margin-right: 0px
+  padding: 1px 12px
+
+.menu__item__menu:active
+  background: rgba(46, 43, 43, 0.5882352941)
+  border-radius: 9px
+  height: 25.7px
+  margin-right: 4px
+  padding: 0.5px 7px
+  width: 25.7px
+
+.menu__opcao
+  background: rgba(26, 25, 25, 0.5490196078)
+  border-radius: 20px
+  display: flex
+  flex-direction: column
+  height: 300px
+  justify-content: space-evenly
+  visibility: hidden
+  width: 200px
+
+.menu__opcao__item
   align-items: center
-  text-align: center
+  display: flex
+  flex-direction: column
+  height: 50px
+  justify-content: space-between
   margin: 10px 0
+  text-align: center
 
 .menu__opcao__item img
   cursor: pointer
-  width: 23px
   height: 23px
+  width: 23px
 
 .menu__opcao__item img:hover
-  background: #2e2b2b8c
-  padding: 1px 8px
+  background: rgba(46, 43, 43, 0.5490196078)
   border-radius: 10px
+  padding: 1px 8px
 
 .menu__opcao__item h1
-  font-family: 'Old Standard TT', serif
   cursor: pointer
+  font-family: "Old Standard TT", serif
 
 .menu__opcao__item h1:hover
-  background: #2e2b2b8c
-  padding: 1px 8px
+  background: rgba(46, 43, 43, 0.5490196078)
   border-radius: 10px
+  padding: 1px 8px
